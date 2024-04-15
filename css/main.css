@@ -1,0 +1,57 @@
+/* CUSTOM-PROPS */
+:root {
+    --striking-color:
+    --background-color:
+    --heading-color:
+    --paragraph-color:
+    --title-color
+    --subtitle-color:
+    --heading-font-family:
+    --paragraph-font-family:
+}
+
+/* GLOBAL */
+html {
+    height: 100%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: "Arial", sans-serif;
+    background-color: #fff;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* CONTAINER */
+.container {
+    width: 100%;
+    max-width: 1200px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* MAIN-CONTENT */
+.main-content {
+    flex-grow: 1;
+}
