@@ -1,13 +1,8 @@
 /* CUSTOM-PROPS */
 :root {
-    --striking-color:
-    --background-color:
-    --heading-color:
-    --paragraph-color:
-    --title-color
-    --subtitle-color:
-    --heading-font-family:
-    --paragraph-font-family:
+    --striking-color: #ff7315;
+    --text-color: #222;
+    --font-family: "Poppins", "Arial", sans-serif;
 }
 
 /* GLOBAL */
