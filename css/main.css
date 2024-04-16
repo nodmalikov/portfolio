@@ -70,6 +70,7 @@ img {
     align-items: center;
     gap: 23px;
     color: rgba(34, 34, 34, 0.5);
+    order: -3;
 }
 
 .email-svg {
@@ -88,6 +89,11 @@ img {
     line-height: normal;
     color: var(--text-color);
     white-space: nowrap;
+    order: -1;
+}
+
+.socials {
+    order: -2;
 }
 
 .socials-list {
@@ -114,13 +120,5 @@ img {
 @media only screen and (max-width: 620px) {
     .site-footer-container {
         flex-direction: column;
-    }
-
-    .email {
-        order: -2;
-    }
-
-    .socials {
-        order: -1;
     }
 }
