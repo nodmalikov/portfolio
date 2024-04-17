@@ -157,7 +157,7 @@ img {
     margin-bottom: 8px;
     width: 100%;
     max-width: 253px;
-    height: 1px;
+    height: 0.5px;
     background-color: rgba(34, 34, 34, 0.1);
 }
 
