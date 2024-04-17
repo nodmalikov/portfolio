@@ -87,6 +87,14 @@ img {
     background-color: var(--heading-color);
 }
 
+.price-item:nth-child(2) .price-item-heading {
+    padding: 18px 139px;
+}
+
+.price-item:nth-child(3) .price-item-heading {
+    padding: 18px 118px 18px 120px;
+}
+
 .price-item:first-child .price-item-service:nth-child(n+4) {
     color: #c5c5c5;
 }
@@ -149,7 +157,7 @@ img {
     margin-bottom: 8px;
     width: 100%;
     max-width: 253px;
-    height: 0.5px;
+    height: 1px;
     background-color: rgba(34, 34, 34, 0.1);
 }
 
@@ -425,6 +433,16 @@ img {
 
     .price-item-heading {
         padding: 18px 87px;
+        text-align: center;
+    }
+
+    .price-item:nth-child(2) .price-item-heading {
+        padding: 18px 87px;
+        text-align: center;
+    }
+    
+    .price-item:nth-child(3) .price-item-heading {
+        padding: 18px 60px;
         text-align: center;
     }
 }
