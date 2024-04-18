@@ -132,7 +132,17 @@ img {
 .testimonials-footer > div {
     display: flex;
     align-items: center;
-    gap: 20px;
+}
+
+.testimonials-rating span {
+    display: block;
+    font-weight: 600;
+    color: var(--text-color);
+    margin-right: 10px;
+}
+
+.testimonials-img {
+    margin-right: 20px;
 }
 
 .testimonials-indicator {
