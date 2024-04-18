@@ -524,6 +524,7 @@ img {
     .testimonials-paragraph {
         margin-bottom: 0;
         margin-top: 32px;
+        font-size: 22px;
     }
 }
 
@@ -574,6 +575,10 @@ img {
 
     .testimonials-card {
         width: 380px;
+    }
+
+    .testimonials-paragraph {
+        font-size: 18px;
     }
 }
 
