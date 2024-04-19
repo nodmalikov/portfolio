@@ -54,6 +54,47 @@ img {
 }
 
 
+/* PORTFOLIO */
+.portfolio {
+    padding-bottom: 125px;
+}
+
+.portfolio-wrapper {
+    padding-left: 81px;
+    padding-right: 81px;
+    display: flex;
+    flex-direction: column;
+}
+
+.portfolio-cards {
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.portfolio-card img {
+    width: 310px;
+    height: 300px;
+    object-fit: cover;
+    display: block;
+}
+
+.portfolio-next-page {
+    align-self: flex-end;
+}
+
+.portfolio-next-page a {
+    font-size: 20px;
+    line-height: normal;
+    color: var(--text-color-light);
+    text-decoration: none;
+    margin-top: 36px;
+    display: block;
+    display: none;
+}
+
+
 /* TESTIMONIALS */
 .testimonials {
     background-color: var(--striking-color);
@@ -489,6 +530,15 @@ img {
         padding-left: 20px;
         padding-right: 20px;
     }
+
+    .portfolio-wrapper {
+        padding: 0;
+    }
+
+    .portfolio-card img {
+        width: 270px;
+        height: 270px;
+    }
 }
 
 /* 1000PX */
@@ -501,7 +551,21 @@ img {
         margin-bottom: 58px;
     }
 
+    .portfolio-card img {
+        width: 210px;
+        height: 210px;
+    }
+
 }
+
+/* 750PX */
+@media only screen and (max-width: 750px) {
+    .portfolio-card img {
+        width: 170px;
+        height: 170px;
+    }
+}
+
 
 /* 650PX */
 @media only screen and (max-width: 650px) {
@@ -556,6 +620,14 @@ img {
     .testimonials-heading {
         font-size: 35px;
     }
+
+    .portfolio-link {
+        display: none;
+    }
+
+    .portfolio-next-page a {
+        display: block;
+    }
 }
 
 /* 500PX */
@@ -579,6 +651,11 @@ img {
 
     .testimonials-paragraph {
         font-size: 18px;
+    }
+
+    .portfolio-card img {
+        width: 160px;
+        height: 160px;
     }
 }
 
@@ -611,6 +688,20 @@ img {
     .testimonials-heading-400 {
         display: block;
         font-size: 32px;
+    }
+
+    .portfolio-cards {
+        gap: 13px;;
+    }
+
+    .portfolio-card img {
+        width: 161px;
+        height: 156px;
+    }
+
+    .portfolio-container {
+        padding-left: 20px;
+        padding-right: 20px;
     }
 }
 
@@ -656,8 +747,8 @@ img {
     }
 }
 
-/* 373PX */
-@media only screen and (max-width: 373px) {
+/* 374PX */
+@media only screen and (max-width: 374px) {
     .testimonials-heading-400 {
         font-size: 26px;
         line-height: 50px;
@@ -666,6 +757,11 @@ img {
 
     .testimonials-card {
         width: 300px;
+    }
+
+    .portfolio-card img {
+        width: 140px;
+        height: 136px;
     }
 }
 
@@ -689,6 +785,14 @@ img {
 
     .testimonials-card {
         width: 275px;
+    }
+}
+
+/* 332PX */
+@media only screen and (max-width: 332px) {
+    .portfolio-card img {
+        width: 105px;
+        height: 100px;
     }
 }
 
