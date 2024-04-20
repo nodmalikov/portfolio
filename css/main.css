@@ -54,6 +54,77 @@ img {
 }
 
 
+/* FEATURES */
+.features {
+    padding-bottom: 125px;
+}
+
+.features-heading {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 62px;
+    color: var(--text-color);
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 100px;
+    text-transform: capitalize;
+}
+
+.features-cards {
+    display: flex;
+    gap: 60px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.features-card {
+    width: 100%;
+    max-width: 240px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.features-img-bg {
+    width: 98px;
+    height: 98px;
+    border-radius: 50%;
+    background-color: rgba(34, 34, 34, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.features-card-img {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    display: block;
+}
+
+.features-card:nth-child(3) .features-card-img {
+    width: 60px;
+}
+
+.features-card-title {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 12px;
+}
+
+.features-card-subtitle {
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    margin: 0;
+}
+
+
 /* PORTFOLIO */
 .portfolio {
     padding-bottom: 125px;
@@ -612,6 +683,19 @@ img {
 
     .price-heading {
         font-size: 32px;
+    }
+
+    .features-heading {
+        font-size: 32px;
+        margin-bottom: 64px;
+    }
+
+    .features-cards {
+        gap: 75px;
+    }
+
+    .features {
+        padding-bottom: 100px;
     }
 }
 
