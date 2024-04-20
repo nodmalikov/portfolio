@@ -376,6 +376,7 @@ img {
     padding: 0;
     margin: 0;
     display: flex;
+    flex-wrap: wrap;
     align-items: flex-start;
     gap: 67px;
 }
@@ -669,8 +670,8 @@ img {
 /* 1250PX */
 @media only screen and (max-width: 1250px) {
     .price-list {
-        flex-direction: column;
         align-items: center;
+        justify-content: center;
         gap: 64px;
     }
 
