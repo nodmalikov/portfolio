@@ -54,6 +54,83 @@ img {
 }
 
 
+/* INTRODUCTION */
+.introduction {
+    padding-bottom: 125px;
+}
+
+.introduction-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 48px 80px 48px 12px;
+    background-color: var(--striking-color);
+    color: var(--heading-color);
+    border-radius: 35px;
+}
+
+.introduction-content {
+    width: 570px;
+}
+
+.introduction-img {
+    padding-top: 18px;
+}
+
+.introduction-img img {
+    width: 430px;
+    height: 329px;
+    object-fit: contain;
+    display: block;
+}
+
+.introduction-projects-rating {
+    display: flex;
+    align-items: flex-end;
+    gap: 49px;
+    margin-bottom: 48px;
+}
+
+.introduction-projects strong {
+    font-weight: 600;
+    font-size: 72px;
+    line-height: 62px;
+    margin-bottom: 16px;
+    display: block;
+}
+
+.introduction-projects p, 
+.introduction-rating p {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    margin: 0;
+    text-transform: capitalize;
+}
+
+.introduction-rating img {
+    display: block;
+    object-fit: contain;
+    width: 148px;
+    height: 25px;
+    margin-bottom: 35px;
+}
+
+.introduction-description h2 {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 62px;
+    margin-top: 0;
+    margin-bottom: 19px;
+}
+
+.introduction-description p {
+    font-size: 24px;
+    line-height: 45px;
+    margin: 0;
+}
+
+
 /* FEATURES */
 .features {
     padding-bottom: 125px;
@@ -626,7 +703,24 @@ img {
         width: 210px;
         height: 210px;
     }
+}
 
+/* 1150PX */
+@media only screen and (max-width: 1150px) {
+    .introduction-container {
+        flex-direction: column-reverse;
+        align-items: center;
+        padding: 50px;
+    }
+    
+    .introduction-projects-rating {
+        justify-content: space-between;
+    }
+
+    .introduction-img {
+        padding: 0;
+        margin-top: 48px;
+    }
 }
 
 /* 750PX */
@@ -637,6 +731,25 @@ img {
     }
 }
 
+/* 670PX */
+@media only screen and (max-width: 670px) {
+    .introduction-projects-rating {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .introduction-projects,
+    .introduction-rating {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .introduction-content {
+        width: 455px;
+    }
+}
 
 /* 650PX */
 @media only screen and (max-width: 650px) {
@@ -712,12 +825,44 @@ img {
     .portfolio-next-page a {
         display: block;
     }
+
+    .introduction-content {
+        width: 450px;
+    }
+
+    .introduction-container {
+        padding: 20px;
+    }
+
+    .introduction-projects strong {
+        font-size: 68px;
+    }
+}
+
+/* 505PX */
+@media only screen and (max-width: 505px) {
+    .introduction-content {
+        width: 350px;
+    }
+
+    .introduction-projects strong {
+        font-size: 60px;
+    }
+
+    .introduction-img img {
+        width: 350px;
+    }
 }
 
 /* 500PX */
 @media only screen and (max-width: 500px) {
     .email-cta-container {
         padding: 0;
+        margin: 0;
+    }
+    
+    .introduction-container {
+        padding: 20px;
         margin: 0;
     }
 
@@ -741,6 +886,14 @@ img {
         width: 160px;
         height: 160px;
     }
+
+    .introduction-description h2 {
+        font-size: 44px;
+    }
+
+    .introduction-description p {
+        text-align: left;
+    }
 }
 
 /* 450PX */
@@ -760,6 +913,10 @@ img {
 
     .testimonials-paragraph {
         font-size: 14px;
+    }
+
+    .introduction-description h2 {
+        font-size: 38px;
     }
 }
 
@@ -787,12 +944,20 @@ img {
         padding-left: 20px;
         padding-right: 20px;
     }
+
+    .introduction-projects strong {
+        font-size: 55px;
+    }
 }
 
 /* 400PX */
 @media only screen and (max-width: 400px) {
     .testimonials-card {
         width: 326px;
+    }
+
+    .introduction-content {
+        width: 338px;
     }
 }
 
@@ -829,6 +994,23 @@ img {
     .testimonials-card {
         width: 326px;
     }
+
+    .introduction-projects strong {
+        font-size: 48px;
+    }
+
+    .introduction-description h2 {
+        font-size: 32px;
+    }
+
+    .introduction-description p {
+        font-size: 20px;
+    }
+
+    .introduction-img img {
+        width: 299px;
+        height: 228px;
+    }
 }
 
 /* 374PX */
@@ -846,6 +1028,17 @@ img {
     .portfolio-card img {
         width: 140px;
         height: 136px;
+    }
+
+    .introduction-content {
+        width: 320px;
+    }
+}
+
+/* 360PX */
+@media only screen and (max-width: 360px) {
+    .introduction-content {
+        width: 300px;
     }
 }
 
@@ -870,6 +1063,10 @@ img {
     .testimonials-card {
         width: 275px;
     }
+
+    .introduction-content {
+        width: 280px;
+    }
 }
 
 /* 332PX */
@@ -888,5 +1085,16 @@ img {
 
     .testimonials-card {
         width: 250px;
+    }
+
+    .introduction-content {
+        width: 250px;
+    }
+}
+
+/* 290PX */
+@media only screen and (max-width: 290px) {
+    .introduction-content {
+        width: 240px;
     }
 }
