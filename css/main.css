@@ -358,12 +358,6 @@ img {
     padding: 10px;
     border: 1px solid #e5e5e5;
     border-radius: 5px;
-    transition: background-color 0.4s ease, border-color 0.4s ease;
-}
-
-.features-card:hover {
-    border-color: #439ce5;
-    background-color: var(--heading-color);
 }
 
 .features-img-bg {
@@ -1254,11 +1248,7 @@ img {
     .introduction-content {
         width: 338px;
     }
-
-    .site-header {
-        padding: 5px;
-    }
-
+    
     .sitenav-list {
         gap: 10px;
     }
