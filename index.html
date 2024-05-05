@@ -16,14 +16,80 @@
 </head>
 <body>
 
-    <!-- SITE-HEADER -->
-    <header class="site-header"></header>
+    <!-- SITE-HERO -->
+    <div id="hero" class="hero">
+        <div class="hero-container container">
+            <div class="hero-content">
+                <span class="hero-hi">Hi!</span>
+                <h1 class="hero-heading">I’m <span class="hero-heading-xxl">Mohammad Reza,</span> <span class="hero-heading-md">Mohammadreza</span> <span class="hero-a">a</span> Frontend developer.</h1>
+                <p class="hero-paragraph">Frontend developer based in tehran, Iran. I am coding with a clean and beautiful problem solving in mind.</p>
+                <div class="hero-social-wrapper">
+                    <div class="hero-social-text">Follow me</div>
+                    <div class="hero-social-icons">
+                        <a class="hero-social-link" href="https://facebook.com">
+                            <img src="imgs/icons/facebook-icon.svg" alt="" width="48" height="48">
+                        </a>
+                        <a class="hero-social-link" href="https://twitter.com">
+                            <img src="imgs/icons/twitter-icon.svg" alt="" width="48" height="48">
+                        </a>
+                        <a class="hero-social-link" href="https://instagram.com">
+                            <img src="imgs/icons/instagram-icon.svg" alt="" width="48" height="48">
+                        </a>
+                        <a class="hero-social-link" href="https://telegram.org">
+                            <img src="imgs/icons/telegram-icon.svg" alt="" width="48" height="48">
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-links">
+                    <a class="button button-request" href="https://t.me/nodmalikov">Send request</a>
+                    <a class="button button-cv" href="#">Download CV</a>
+                </div>
+            </div>
+
+            <div class="hero-img-wrapper">
+                <img class="hero-shape-right" src="imgs/icons/points.svg" alt="">
+                <img class="hero-img" src="imgs/hero-img.png" alt="Man img" srcset="imgs/hero-img.png 1x, imgs/hero-img@2x.png 2x">
+                <img class="hero-shape-left" src="imgs/icons/points.svg" alt="">
+            </div>
+
+            <header class="site-header">
+                <nav class="sitenav">
+                    <ul class="sitenav-list">
+                        <li class="sitenav-item">
+                            <a href="#hero" class="sitenav-link">
+                                <img src="imgs/nav/home.svg" alt="" width="24" height="24">
+                            </a>
+                        </li>
+                        <li class="sitenav-item">
+                            <a href="#features" class="sitenav-link">
+                                <img src="imgs/nav/profile.svg" alt="" width="24" height="24">
+                            </a>
+                        </li>
+                        <li class="sitenav-item">
+                            <a href="#portfolio" class="sitenav-link">
+                                <img src="imgs/nav/work.svg" alt="" width="24" height="24">
+                            </a>
+                        </li>
+                        <li class="sitenav-item">
+                            <a href="#price" class="sitenav-link">
+                                <img src="imgs/nav/document.svg" alt="" width="24" height="24">
+                            </a>
+                        </li>
+                        <li class="sitenav-item">
+                            <a href="#email-cta" class="sitenav-link">
+                                <img src="imgs/nav/chat.svg" alt="" width="24" height="24">
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+        </div>
+    </div>
 
     <!-- SITE-MAIN -->
     <main class="main-content">
-
         <!-- INTRODUCTION -->
-        <section class="introduction">
+        <section id="introduction" class="introduction">
             <div class="introduction-container container">
 
                 <!-- INTRODUCTION-IMG -->
@@ -53,7 +119,7 @@
         </section>
 
         <!-- FEATURES -->
-        <section class="features">
+        <section id="features" class="features">
             <div class="container">
                 <h2 class="features-heading">Why hire me?</h2>
                 <div class="features-cards">
@@ -98,7 +164,7 @@
         </section>
 
         <!-- PORTFOLIO -->
-        <section class="portfolio">
+        <section id="portfolio" class="portfolio">
             <div class="portfolio-container container">
                 <div class="portfolio-wrapper">
 
@@ -152,7 +218,7 @@
         </section>
 
         <!-- TESTIMONIALS -->
-        <section class="testimonials">
+        <section id="testimonials" class="testimonials">
             <div class="testimonials-container container">
                 <div class="testimonials-wrapper">
                     <h2 class="testimonials-heading">I’m Loved By Users And Clients Worldwide</h2>
@@ -198,17 +264,17 @@
 
                     <!-- TESTIMONIALS-INDICATOR -->
                     <div class="testimonials-indicator">
-                        <div class="indicator indicator-active"></div>
-                        <div class="indicator"></div>
-                        <div class="indicator"></div>
-                        <div class="indicator"></div>
+                        <button class="indicator indicator-active"></button>
+                        <button class="indicator"></button>
+                        <button class="indicator"></button>
+                        <button class="indicator"></button>
                     </div>
                 </div>
             </div>
         </section>
 
         <!-- PRICE -->
-        <section class="price">
+        <section id="price" class="price">
             <div class="price-container container">
                 <h2 class="price-heading">Price plans</h2>
                 <ul class="price-list">
@@ -358,7 +424,7 @@
         </section>
 
         <!-- EMAIL-CTA -->
-        <section class="email-cta">
+        <section id="email-cta" class="email-cta">
             <div class="email-cta-container container">
                 <div class="cta-container">
                     <h3 class="cta-heading">Interested working<br>with me?</h3>
@@ -368,7 +434,7 @@
         </section>
 
         <!-- BLOG -->
-        <section class="blog">
+        <section id="blog" class="blog">
             <div class="container">
 
                 <!-- BLOG-HEADING-ICON -->
@@ -427,7 +493,7 @@
     </main>
 
     <!-- SITE-FOOTER -->
-    <footer class="site-footer">
+    <footer id="site-footer" class="site-footer">
         <div class="site-footer-container container">
 
             <!-- EMAIL -->
