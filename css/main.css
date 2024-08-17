@@ -901,19 +901,28 @@ img {
         justify-content: center;
         gap: 64px;
     }
-
+    
     .price-container {
         padding-left: 20px;
         padding-right: 20px;
     }
-
+    
     .portfolio-wrapper {
         padding: 0;
     }
-
+    
     .portfolio-card img {
         width: 270px;
         height: 270px;
+    }
+    
+    .hero-container {
+        justify-content: center;
+        gap: 0;
+    }   
+    
+    .hero-img {
+        display: none;
     }
 }
 
@@ -922,11 +931,11 @@ img {
     .cta-container {
         flex-direction: column;
     }
-
+    
     .cta-heading {
         margin-bottom: 58px;
     }
-
+    
     .portfolio-card img {
         width: 210px;
         height: 210px;
@@ -944,25 +953,12 @@ img {
     .introduction-projects-rating {
         justify-content: space-between;
     }
-
+    
     .introduction-img {
         padding: 0;
         margin-top: 48px;
     }
 }
-
-/* 980PX */
-@media only screen and (max-width: 980px) {
-    .hero-container {
-        justify-content: center;
-        gap: 0;
-    }   
-    
-    .hero-img {
-        display: none;
-    }
-}
-
 
 /* 750PX */
 @media only screen and (max-width: 750px) {
@@ -978,7 +974,7 @@ img {
         flex-direction: column;
         align-items: center;
     }
-
+    
     .introduction-projects,
     .introduction-rating {
         display: flex;
@@ -986,7 +982,7 @@ img {
         justify-content: center;
         flex-direction: column;
     }
-
+    
     .introduction-content {
         width: 455px;
     }
@@ -994,22 +990,22 @@ img {
 
 /* 650PX */
 @media only screen and (max-width: 650px) {
-
+    
     .testimonials-heading {
         font-size: 40px;
     }
-
+    
     .testimonials-card {
         width: 450px;
         align-items: flex-start;
         flex-direction: column-reverse;
         padding: 24px 20px 34px;
     }
-
+    
     .testimonials-footer {
         flex-direction: column;
     }
-
+    
     .testimonials-paragraph {
         margin-bottom: 0;
         margin-top: 32px;
@@ -1022,32 +1018,32 @@ img {
     .site-footer-container {
         flex-direction: column;
     }
-
+    
     .blog-heading {
         font-size: 32px;
     }
-
+    
     .cta-container {
         padding: 25px 38px;
     }
-
+    
     .cta-heading {
         font-size: 32px;
     }
-
+    
     .price-heading {
         font-size: 32px;
     }
-
+    
     .features-heading {
         font-size: 32px;
         margin-bottom: 64px;
     }
-
+    
     .features-cards {
         gap: 75px;
     }
-
+    
     .features {
         padding-bottom: 100px;
     }
@@ -1058,23 +1054,23 @@ img {
     .testimonials-heading {
         font-size: 35px;
     }
-
+    
     .portfolio-link {
         display: none;
     }
-
+    
     .portfolio-next-page a {
         display: block;
     }
-
+    
     .introduction-content {
         width: 450px;
     }
-
+    
     .introduction-container {
         padding: 20px;
     }
-
+    
     .introduction-projects strong {
         font-size: 68px;
     }
@@ -1085,15 +1081,15 @@ img {
     .introduction-content {
         width: 350px;
     }
-
+    
     .introduction-projects strong {
         font-size: 60px;
     }
-
+    
     .introduction-img img {
         width: 350px;
     }
-
+    
     .hero-heading {
         font-size: 35px;
         margin-bottom: 40px;
@@ -1111,32 +1107,32 @@ img {
         padding: 20px;
         margin: 0;
     }
-
+    
     .cta-container {
         margin: 0;
     }
-
+    
     .testimonials-heading {
         font-size: 32px;
     }
-
+    
     .testimonials-card {
         width: 380px;
     }
-
+    
     .testimonials-paragraph {
         font-size: 18px;
     }
-
+    
     .portfolio-card img {
         width: 160px;
         height: 160px;
     }
-
+    
     .introduction-description h2 {
         font-size: 44px;
     }
-
+    
     .introduction-description p {
         text-align: left;
     }
@@ -1148,62 +1144,62 @@ img {
         padding-left: 24px;
         padding-right: 24px;
     }
-
+    
     .testimonials-heading {
         font-size: 32px;
     }
-
+    
     .testimonials-card {
         width: 350px;
     }
-
+    
     .testimonials-paragraph {
         font-size: 14px;
     }
-
+    
     .introduction-description h2 {
         font-size: 38px;
     }
-
+    
     .hero {
         padding-bottom: 109px;
     }
-
+    
     .hero-container {
         padding-left: 20px;
         padding-right: 20px;
     }
-
+    
     .hero-social-wrapper {
         justify-content: center;
         margin-bottom: 48px;
     }
-
+    
     .hero-social-text {
         display: none;
     }
-
+    
     .hero-links {
         justify-content: center;
     }
-
+    
     .hero-heading {
         font-size: 32px;
         margin-bottom: 24px;
     }
-
+    
     .hero-img {
         display: none;
     }
-
+    
     .hero-heading-xxl {
         display: none;
     }
-
+    
     .hero-heading-md {
         display: inline-block;
     }
-
+    
     .hero-heading .hero-a {
         display: none;
     }
@@ -1214,26 +1210,26 @@ img {
     .testimonials-heading {
         display: none;
     }
-
+    
     .testimonials-heading-400 {
         display: block;
         font-size: 32px;
     }
-
+    
     .portfolio-cards {
         gap: 13px;;
     }
-
+    
     .portfolio-card img {
         width: 161px;
         height: 156px;
     }
-
+    
     .portfolio-container {
         padding-left: 20px;
         padding-right: 20px;
     }
-
+    
     .introduction-projects strong {
         font-size: 55px;
     }
@@ -1244,7 +1240,7 @@ img {
     .testimonials-card {
         width: 326px;
     }
-
+    
     .introduction-content {
         width: 338px;
     }
@@ -1252,7 +1248,7 @@ img {
     .sitenav-list {
         gap: 10px;
     }
-
+    
     .sitenav-link {
         width: 45px;
         height: 45px;
@@ -1265,12 +1261,12 @@ img {
         font-size: 30px;
         white-space: nowrap;
     }
-
+    
     .price-item-heading {
         padding: 18px 87px;
         text-align: center;
     }
-
+    
     .price-item:nth-child(2) .price-item-heading {
         padding: 18px 87px;
         text-align: center;
@@ -1288,23 +1284,23 @@ img {
         display: block;
         font-size: 28px;
     }
-
+    
     .testimonials-card {
         width: 326px;
     }
-
+    
     .introduction-projects strong {
         font-size: 48px;
     }
-
+    
     .introduction-description h2 {
         font-size: 32px;
     }
-
+    
     .introduction-description p {
         font-size: 20px;
     }
-
+    
     .introduction-img img {
         width: 299px;
         height: 228px;
@@ -1318,24 +1314,24 @@ img {
         line-height: 50px;
         margin-bottom: 40px;
     }
-
+    
     .testimonials-card {
         width: 300px;
     }
-
+    
     .portfolio-card img {
         width: 140px;
         height: 136px;
     }
-
+    
     .introduction-content {
         width: 320px;
     }
-
+    
     .hero {
         padding-bottom: 100px;
     }
-
+    
     .hero-heading {
         font-size: 28px;
         line-height: 45px;
@@ -1347,17 +1343,17 @@ img {
     .introduction-content {
         width: 300px;
     }
-
+    
     .hero-heading {
         font-size: 24px;
         line-height: 38px;
     }
-
+    
     .hero-paragraph {
         font-size: 16px;
         line-height: 22px;
     } 
-
+    
     .button {
         padding: 14px;
         font-size: 15px;
@@ -1369,23 +1365,23 @@ img {
     .cta-container {
         padding: 15px 25px;
     }
-
+    
     .cta-heading {
         font-size: 27px;
     }
-
+    
     .cta-button {
         padding: 15px 45px;
     }
-
+    
     .testimonials-heading-400 {
         font-size: 24px;
     }
-
+    
     .testimonials-card {
         width: 275px;
     }
-
+    
     .introduction-content {
         width: 280px;
     }
@@ -1404,28 +1400,28 @@ img {
     .testimonials-heading-400 {
         font-size: 20px;
     }
-
+    
     .testimonials-card {
         width: 250px;
     }
-
+    
     .introduction-content {
         width: 250px;
     }
-
+    
     .button {
         padding: 12px;
         font-size: 14px;
     }
-
+    
     .hero-heading {
         text-align: center;
     }
-
+    
     .hero-paragraph {
         text-align: center;
     }
-
+    
     .hero-links {
         gap: 20px;
     }
